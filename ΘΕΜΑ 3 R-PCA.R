@@ -15,6 +15,10 @@ head(Cars93)
 # Let's take a summary of the cars data.
 summary(Cars93)
 
+#make cylinders column from factor to numeric, which will be needed later
+
+Cars93$Cylinders <- as.numeric(Cars93$Cylinders)
+str(Cars93)
 
 # select columns with only numbers
 pcaData <- select(Cars93, Min.Price, Price, Max.Price, MPG.city, MPG.highway, Cylinders, EngineSize, Horsepower, RPM, Rev.per.mile, Fuel.tank.capacity, Passengers, Length, Wheelbase, Width, Turn.circle, Rear.seat.room, Luggage.room, Weight)
@@ -28,8 +32,6 @@ pcaData <- na.omit(pcaData)
 dim(pcaData)
 summary(pcaData)
 
-str(pcaData)
-pcaData$Cylinders <- as.numeric(pcaData$Cylinders)
 str(pcaData)
 
 # ready to execute PCA
