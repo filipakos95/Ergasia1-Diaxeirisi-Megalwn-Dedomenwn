@@ -20,7 +20,8 @@ x2=("Eagle", "Ronaldo", "Real madrid", "Prussian blue", "Michael Bay")
 y2=("Eagle", "Ronaldo", "Real madrid", "Prussian blue", "Michael Bay")
 
 x3=("Werner Herzog", "Aquirre, the wrath of God", "Audi", "Spanish red")
-y3=("Martin Scorsese", "Taxi driver", "Toyota", "Spanish red")
+y3=("Martin Scorsese", "Taxi driver", "Toyota", "Spanish red")
+
 
 
 #ORIZW TA NEA DIANYSMATA POY PROKYPTOYN WS ARITHMOI
