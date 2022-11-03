@@ -62,4 +62,3 @@ plot(pcaData)
 # 
 # into the 2-d plane of the biplot.
 biplot(pcaData)
-
